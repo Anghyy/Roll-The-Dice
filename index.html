@@ -11,26 +11,124 @@
 			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
 			rel="stylesheet"
 		/>
-		<!--Import Fontawesome kit-->
-		<script
-			src="https://kit.fontawesome.com/bc8a98e338.js"
-			crossorigin="anonymous"
-		></script>
+		<!--Import google kit-->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
 		<!--Import materialize.css-->
 		<link
 			type="text/css"
 			rel="stylesheet"
-			href="css/materialize.min.css"
+			href="/materialize/css/materialize.min.css"
 			media="screen,projection"
 		/>
-        <!--Import materialize.css-->
-        <link rel="stylesheet" href="/css/style.css">
+		<!--Import materialize.css-->
+		<link rel="stylesheet" href="/css/style.css" />
 		<title>Roll The Dice | Muliplayer</title>
 	</head>
-	<body>
-		<h1>Hello</h1>
+
+	<body class="brown lighten-2">
+		<div class="container center-align">
+			<div class="row flex first-row">
+				<button
+					class="btn-floating red lighten-2 waves-effect waves-light"
+					type="submit"
+					name="action"
+				>
+					<i class="material-icons">add</i>
+				</button>
+				<div style="margin-left: 10px">
+					<h6 class="center-align grey-text text-darken-1">NEW GAME</h6>
+				</div>
+			</div>
+
+			<div class="row second-row">
+				<div class="row">
+					<div class="col s5 flex">
+						<h5>PLAYER ONE</h5>
+						<i class="material-icons tiny player">brightness_1</i>
+					</div>
+					<div class="col s2 flex"></div>
+					<div class="col s5 flex">
+						<h5>PLAYER TWO</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s5 flex">
+						<h2 class="red-text text-lighten-2">0</h2>
+					</div>
+					<div class="col s2 flex">
+						<img class="responsive-img" src="Assets/dice1.png" />
+					</div>
+					<div class="col s5 flex">
+						<h2 class="red-text text-lighten-2">0</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="row third-row">
+				<div class="row flex">
+					<div class="col s4 l5 flex">
+						<div class="red lighten-2" style="height: 105px; width: 150px">
+							<p>CURRENT</p>
+							<h6 class="white-text">0</h6>
+						</div>
+					</div>
+
+					<div class="col s4 l2">
+						<div class="row">
+							<div class="flex">
+								<button
+									class="btn-floating red lighten-2 waves-effect waves-light"
+									type="submit"
+									name="action"
+									id="roll-btn"
+								>
+									<i class="material-icons tiny">autorenew</i>
+								</button>
+								<h6
+									class="center-align grey-text text-darken-1"
+									style="margin-left: 10px"
+								>
+									ROLL DICE
+								</h6>
+							</div>
+						</div>
+						<div class="row">
+							<div class="flex">
+								<button
+									class="btn-floating red lighten-2 waves-effect waves-light"
+									type="submit"
+									name="action"
+									id="hold-btn"
+								>
+									<i class="material-icons tiny">system_update_alt</i>
+								</button>
+								<h6
+									class="center-align grey-text text-darken-1"
+									style="margin-left: 10px"
+								>
+									HOLD
+								</h6>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s4 l5 flex">
+						<div class="red lighten-2" style="height: 105px; width: 150px">
+							<p>CURRENT</p>
+							<h6 class="white-text">0</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!--JavaScript at end of body for optimized loading-->
-		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script
+			type="text/javascript"
+			src="/materialize/js/materialize.min.js"
+		></script>
 	</body>
 </html>
