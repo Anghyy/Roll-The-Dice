@@ -23,7 +23,7 @@ body {
 	margin-top: 65px;
 }
 
-img {
+#dice {
 	height: 100px;
 	width: 100px;
 	margin: 9px;
@@ -35,11 +35,6 @@ img {
 
 #btn {
 	border: none;
-}
-
-.player {
-	padding: 5px;
-	color: #e57373;
 }
 
 /*media queries*/
